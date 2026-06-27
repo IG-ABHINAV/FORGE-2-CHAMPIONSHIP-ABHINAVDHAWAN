@@ -1,40 +1,51 @@
-# PulseDesk -- Forge 2 / Edition 1  (rename this repo: forge2-<yourname>)
+# PulseDesk — Forge 2 / Edition 1
 
-A multi-tenant support-desk SaaS, BUILT BY ORCHESTRATING Hermes + OpenClaw over Slack.
-This is a STARTER SKELETON -- structure only, zero features. Build the features with your agents.
+A multi-tenant support-desk SaaS built by orchestrating **Hermes** (PO/planner) + **OpenClaw** (coder) over Slack, with all model calls routed through **EastRouter**.
 
-## Stack (required)
-Laravel 11 . PHP 8.2 . MySQL 8 . Laravel Sanctum . React 19 . Vite . Tailwind
+## Stack
+- **Backend**: Laravel 11 · PHP 8.2 · MySQL 8 · Laravel Sanctum
+- **Frontend**: React 19 · Vite · Tailwind CSS v4
 
-## EastRouter models I used
-- Hermes (planning / product owner): <e.g. deepseek/deepseek-v4-pro>
-- OpenClaw (coding): <e.g. z-ai/glm-5.1>
-
-## How to run  (EXACT -- a judge will run these from a fresh clone)
-### Backend (Laravel + MySQL)
-    cd backend
-    cp .env.example .env          # set DB_* for your MySQL
-    composer install
-    php artisan key:generate
-    php artisan migrate --seed
-    php artisan serve             # http://127.0.0.1:8000
-### Frontend (React + Vite)
-    cd frontend
-    cp .env.example .env          # set VITE_API_URL=http://127.0.0.1:8000
-    npm install
-    npm run dev                   # http://127.0.0.1:5173
-
-## Demo logins (from the seeder)  -- fill in after you build the seeder
-- admin@acme.test / password
-- agent@acme.test / password
-- customer@acme.test / password
+## EastRouter Models Used
+- **Hermes** (planning / product owner): `moonshotai/kimi-k2.6`
+- **OpenClaw** (coding): `z-ai/glm-5.1`
+- **QA / Review**: `moonshotai/kimi-k2.7-code`
 
 ## Live URL
-<paste if deployed, else: "runs locally per the steps above">
+**Backend API**: https://pulsedesk-backend-qsrr.onrender.com
 
-## Where my evidence lives (everything is in THIS repo -- no Drive, no video)
-- agents/        -- real Hermes + OpenClaw configs (secrets redacted)
-- agent-log.md   -- the human->Hermes->OpenClaw loop
-- sprints/       -- one doc per sprint
-- slack-export/  -- Slack export, or per-channel screenshots
-- evidence/screenshots/ -- app, agents-running, CI screenshots
+## How to Run (EXACT — a judge will run these from a fresh clone)
+
+### Backend (Laravel + MySQL)
+```bash
+cd backend
+cp .env.example .env          # set DB_* for your MySQL instance
+composer install
+php artisan key:generate
+php artisan migrate --seed
+php artisan serve             # → http://127.0.0.1:8000
+```
+
+### Frontend (React + Vite)
+```bash
+cd frontend
+cp .env.example .env          # VITE_API_URL already set to live backend
+npm install
+npm run dev                   # → http://localhost:3000
+```
+
+## Demo Logins (from seeder)
+| Email | Password | Role |
+|-------|----------|------|
+| admin@acme.test | password | admin |
+| agent@acme.test | password | agent |
+| customer@acme.test | password | customer |
+
+## Where Evidence Lives (everything in THIS repo — no Drive, no video)
+| Path | Contents |
+|------|----------|
+| `agents/` | Real Hermes + OpenClaw configs (secrets redacted) |
+| `agent-log.md` | The human → Hermes → OpenClaw loop |
+| `sprints/` | One doc per sprint |
+| `slack-export/` | Per-channel screenshots |
+| `evidence/screenshots/` | App, agents-running, CI screenshots |
