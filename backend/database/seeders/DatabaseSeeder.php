@@ -17,64 +17,79 @@ class DatabaseSeeder extends Seeder
         $orgNames = ['Stark Industries', 'Wayne Enterprises', 'Acme Corp'];
 
         foreach ($orgNames as $name) {
-            $org = Organization::create([
-                'name' => $name,
-                'slug' => Str::slug($name),
-                'plan' => 'pro',
-                'domain' => Str::slug($name) . '.pulsedesk.com',
-            ]);
+            $slug = Str::slug($name);
+
+            $org = Organization::updateOrCreate(
+                ['slug' => $slug],
+                [
+                    'name' => $name,
+                    'plan' => 'pro',
+                    'domain' => $slug . '.pulsedesk.com',
+                ]
+            );
 
             // Seed SLA Policy
-            SlaPolicy::create([
-                'name' => 'Standard Policy',
-                'priority' => 'high',
-                'response_hours' => 4,
-                'resolution_hours' => 24,
-                'organization_id' => $org->id,
-            ]);
+            SlaPolicy::updateOrCreate(
+                ['organization_id' => $org->id, 'name' => 'Standard Policy', 'priority' => 'high'],
+                [
+                    'response_hours' => 4,
+                    'resolution_hours' => 24,
+                ]
+            );
 
             // Seed Users
-            $admin = User::create([
-                'name' => "Admin User ({$name})",
-                'email' => strtolower(Str::slug($name)) . '-admin@pulsedesk.com',
-                'password' => Hash::make('password123'),
-                'organization_id' => $org->id,
-                'role' => 'admin',
-            ]);
+            $adminEmail = $name === 'Acme Corp' ? 'admin@acme.test' : strtolower($slug) . '-admin@pulsedesk.com';
+            $agentEmail = $name === 'Acme Corp' ? 'agent@acme.test' : strtolower($slug) . '-agent@pulsedesk.com';
+            $password = $name === 'Acme Corp' ? 'password' : 'password123';
 
-            $agent = User::create([
-                'name' => "Agent User ({$name})",
-                'email' => strtolower(Str::slug($name)) . '-agent@pulsedesk.com',
-                'password' => Hash::make('password123'),
-                'organization_id' => $org->id,
-                'role' => 'agent',
-            ]);
+            $admin = User::updateOrCreate(
+                ['email' => $adminEmail],
+                [
+                    'name' => "Admin User ({$name})",
+                    'password' => Hash::make($password),
+                    'organization_id' => $org->id,
+                    'role' => 'admin',
+                ]
+            );
+
+            $agent = User::updateOrCreate(
+                ['email' => $agentEmail],
+                [
+                    'name' => "Agent User ({$name})",
+                    'password' => Hash::make($password),
+                    'organization_id' => $org->id,
+                    'role' => 'agent',
+                ]
+            );
 
             if ($name === 'Acme Corp') {
-                User::create([
-                    'name' => 'Acme Customer',
-                    'email' => 'customer@acme.test',
-                    'password' => Hash::make('password'),
-                    'organization_id' => $org->id,
-                    'role' => 'customer',
-                ]);
+                User::updateOrCreate(
+                    ['email' => 'customer@acme.test'],
+                    [
+                        'name' => 'Acme Customer',
+                        'password' => Hash::make('password'),
+                        'organization_id' => $org->id,
+                        'role' => 'customer',
+                    ]
+                );
 
-                $admin->forceFill(['email' => 'admin@acme.test', 'password' => Hash::make('password')])->save();
-                $agent->forceFill(['email' => 'agent@acme.test', 'password' => Hash::make('password')])->save();
+                User::whereIn('email', ['acme-corp-admin@pulsedesk.com', 'acme-corp-agent@pulsedesk.com'])->delete();
             }
 
             // Seed Tickets
-            for ($i = 1; $i <= 15; $i++) {
-                Ticket::create([
-                    'title' => "Sample Ticket #{$i} for {$name}",
-                    'description' => "This is the description for sample support ticket number {$i}.",
-                    'status' => $i % 3 == 0 ? 'in_progress' : ($i % 5 == 0 ? 'resolved' : 'open'),
-                    'priority' => $i % 4 == 0 ? 'urgent' : ($i % 3 == 0 ? 'high' : 'medium'),
-                    'organization_id' => $org->id,
-                    'user_id' => $admin->id,
-                    'assignee_id' => $agent->id,
-                    'sla_breached' => $i % 7 == 0,
-                ]);
+            if (!Ticket::where('organization_id', $org->id)->exists()) {
+                for ($i = 1; $i <= 15; $i++) {
+                    Ticket::create([
+                        'title' => "Sample Ticket #{$i} for {$name}",
+                        'description' => "This is the description for sample support ticket number {$i}.",
+                        'status' => $i % 3 == 0 ? 'in_progress' : ($i % 5 == 0 ? 'resolved' : 'open'),
+                        'priority' => $i % 4 == 0 ? 'urgent' : ($i % 3 == 0 ? 'high' : 'medium'),
+                        'organization_id' => $org->id,
+                        'user_id' => $admin->id,
+                        'assignee_id' => $agent->id,
+                        'sla_breached' => $i % 7 == 0,
+                    ]);
+                }
             }
         }
     }

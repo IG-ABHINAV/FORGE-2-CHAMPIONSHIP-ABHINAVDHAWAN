@@ -42,3 +42,7 @@ fi
 echo "=== Running migrations ==="
 php /app/artisan migrate --force
 echo "=== Migrations completed! ==="
+
+echo "=== Seeding demo data ==="
+php /app/artisan db:seed --force
+echo "=== Seeding completed! ==="
