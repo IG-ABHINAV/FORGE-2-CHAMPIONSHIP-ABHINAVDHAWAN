@@ -12,7 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('slug')->unique();
-            $table->enum('plan', ['free', 'pro', 'growth', 'enterprise'])->default('free');
+            $table->enum('plan', ['free', 'pro', 'enterprise'])->default('free');
             $table->string('domain')->nullable();
             $table->timestamps();
             $table->softDeletes();

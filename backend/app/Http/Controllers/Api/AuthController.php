@@ -21,11 +21,20 @@ class AuthController extends Controller
             'password' => 'required|string|min:8',
         ]);
 
+        $baseSlug = Str::slug($request->org_name);
+        $slug = $baseSlug;
+        $suffix = 2;
+
+        while (Organization::where('slug', $slug)->exists()) {
+            $slug = "{$baseSlug}-{$suffix}";
+            $suffix++;
+        }
+
         $org = Organization::create([
             'name' => $request->org_name,
-            'slug' => Str::slug($request->org_name),
-            'plan' => 'growth',
-            'domain' => Str::slug($request->org_name) . '.pulsedesk.com',
+            'slug' => $slug,
+            'plan' => 'pro',
+            'domain' => $slug . '.pulsedesk.com',
         ]);
 
         $user = User::create([

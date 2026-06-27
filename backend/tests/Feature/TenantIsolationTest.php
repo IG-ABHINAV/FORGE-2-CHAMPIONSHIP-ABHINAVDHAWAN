@@ -15,8 +15,8 @@ class TenantIsolationTest extends TestCase
 
     public function test_user_cannot_access_other_organization_tickets(): void
     {
-        $org1 = Organization::create(['name' => 'Org One', 'slug' => 'org-one', 'plan' => 'growth', 'domain' => 'one.com']);
-        $org2 = Organization::create(['name' => 'Org Two', 'slug' => 'org-two', 'plan' => 'growth', 'domain' => 'two.com']);
+        $org1 = Organization::create(['name' => 'Org One', 'slug' => 'org-one', 'plan' => 'pro', 'domain' => 'one.com']);
+        $org2 = Organization::create(['name' => 'Org Two', 'slug' => 'org-two', 'plan' => 'pro', 'domain' => 'two.com']);
 
         $user1 = User::create([
             'name' => 'User One',

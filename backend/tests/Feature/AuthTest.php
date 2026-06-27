@@ -42,7 +42,7 @@ class AuthTest extends TestCase
         $org = Organization::create([
             'name' => 'Wayne Enterprises',
             'slug' => 'wayne-enterprises',
-            'plan' => 'growth',
+            'plan' => 'pro',
             'domain' => 'wayne.com',
         ]);
 

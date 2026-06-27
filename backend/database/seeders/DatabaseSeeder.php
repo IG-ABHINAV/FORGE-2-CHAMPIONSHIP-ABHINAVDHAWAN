@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             $org = Organization::create([
                 'name' => $name,
                 'slug' => Str::slug($name),
-                'plan' => 'growth',
+                'plan' => 'pro',
                 'domain' => Str::slug($name) . '.pulsedesk.com',
             ]);
 
@@ -72,7 +72,7 @@ class DatabaseSeeder extends Seeder
                     'priority' => $i % 4 == 0 ? 'urgent' : ($i % 3 == 0 ? 'high' : 'medium'),
                     'organization_id' => $org->id,
                     'user_id' => $admin->id,
-                    'assigned_to' => $agent->id,
+                    'assignee_id' => $agent->id,
                     'sla_breached' => $i % 7 == 0,
                 ]);
             }

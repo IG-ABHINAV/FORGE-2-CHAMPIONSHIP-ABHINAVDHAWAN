@@ -76,12 +76,12 @@ class TicketController extends Controller
             'description' => 'sometimes|string',
             'status' => 'sometimes|in:open,in_progress,resolved,closed',
             'priority' => 'sometimes|in:low,medium,high,urgent',
-            'assigned_to' => 'sometimes|nullable|exists:users,id',
+            'assignee_id' => 'sometimes|nullable|exists:users,id',
         ]);
 
         $oldStatus = $ticket->status;
 
-        $ticket->update($request->only(['title', 'description', 'status', 'priority', 'assigned_to']));
+        $ticket->update($request->only(['title', 'description', 'status', 'priority', 'assignee_id']));
 
         if ($request->has('status') && $request->status !== $oldStatus) {
             ActivityLog::create([

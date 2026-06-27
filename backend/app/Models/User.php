@@ -11,7 +11,7 @@ class User extends Authenticatable {
     protected $casts = ['email_verified_at'=>'datetime','password'=>'hashed'];
     public function organization() { return $this->belongsTo(Organization::class); }
     public function tickets() { return $this->hasMany(Ticket::class); }
-    public function assigned_tickets() { return $this->hasMany(Ticket::class,'assigned_to'); }
+    public function assigned_tickets() { return $this->hasMany(Ticket::class,'assignee_id'); }
     public function comments() { return $this->hasMany(Comment::class); }
     public function isAdmin(): bool { return $this->role === 'admin'; }
 }

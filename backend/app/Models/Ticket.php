@@ -20,7 +20,7 @@ class Ticket extends Model
         'priority',
         'organization_id',
         'user_id',
-        'assigned_to',
+        'assignee_id',
         'sla_breached',
     ];
 
@@ -49,7 +49,7 @@ class Ticket extends Model
 
     public function assignee(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'assigned_to');
+        return $this->belongsTo(User::class, 'assignee_id');
     }
 
     public function comments(): HasMany

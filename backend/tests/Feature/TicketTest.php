@@ -15,7 +15,7 @@ class TicketTest extends TestCase
 
     public function test_can_create_ticket_within_org(): void
     {
-        $org = Organization::create(['name' => 'Stark Industries', 'slug' => 'stark', 'plan' => 'growth', 'domain' => 'stark.com']);
+        $org = Organization::create(['name' => 'Stark Industries', 'slug' => 'stark', 'plan' => 'pro', 'domain' => 'stark.com']);
         $user = User::create([
             'name' => 'Tony Stark',
             'email' => 'tony@stark.com',
@@ -38,7 +38,7 @@ class TicketTest extends TestCase
 
     public function test_can_list_own_org_tickets(): void
     {
-        $org = Organization::create(['name' => 'Stark Industries', 'slug' => 'stark', 'plan' => 'growth', 'domain' => 'stark.com']);
+        $org = Organization::create(['name' => 'Stark Industries', 'slug' => 'stark', 'plan' => 'pro', 'domain' => 'stark.com']);
         $user = User::create([
             'name' => 'Tony Stark',
             'email' => 'tony@stark.com',
@@ -66,8 +66,8 @@ class TicketTest extends TestCase
 
     public function test_cannot_access_other_org_ticket(): void
     {
-        $org1 = Organization::create(['name' => 'Org One', 'slug' => 'one', 'plan' => 'growth', 'domain' => 'one.com']);
-        $org2 = Organization::create(['name' => 'Org Two', 'slug' => 'two', 'plan' => 'growth', 'domain' => 'two.com']);
+        $org1 = Organization::create(['name' => 'Org One', 'slug' => 'one', 'plan' => 'pro', 'domain' => 'one.com']);
+        $org2 = Organization::create(['name' => 'Org Two', 'slug' => 'two', 'plan' => 'pro', 'domain' => 'two.com']);
 
         $user1 = User::create([
             'name' => 'User One',
