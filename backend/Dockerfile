@@ -16,5 +16,6 @@ RUN composer install --no-interaction --no-dev --optimize-autoloader
 RUN chown -R application:application /app/storage /app/bootstrap/cache \
     && chmod -R 775 /app/storage /app/bootstrap/cache
 
-# Run migrations and start apache (default entrypoint handles apache start)
-CMD php artisan migrate --force && supervisord
+# Copy migration script to provisioning directory
+COPY entrypoint-migration.sh /opt/docker/provision/entrypoint.d/99-migration.sh
+RUN chmod +x /opt/docker/provision/entrypoint.d/99-migration.sh
