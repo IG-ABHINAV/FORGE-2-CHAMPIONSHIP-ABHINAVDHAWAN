@@ -6,25 +6,20 @@ databases:
     plan: free
 
 services:
-  # Laravel 11 Backend Web Service
+  # Laravel 11 Backend Web Service (Dockerized)
   - type: web
     name: pulsedesk-backend
-    env: php
+    runtime: docker
     plan: free
-    rootDir: backend
-    buildCommand: |
-      composer install --no-dev --optimize-autoloader
-      php artisan config:cache
-      php artisan route:cache
-      php artisan view:cache
-    startCommand: apache2-foreground-bootstrap # or appropriate container start command for php envs on Render
+    dockerfilePath: backend/Dockerfile
+    dockerContext: backend
     envVars:
       - key: APP_ENV
         value: production
       - key: APP_DEBUG
         value: "false"
       - key: APP_KEY
-        generate: true
+        generateValue: true
       - key: DB_CONNECTION
         value: mysql
       - key: DB_HOST
