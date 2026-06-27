@@ -1,5 +1,5 @@
 # Hermes (orchestrator / product owner) — EastRouter config. Secrets REDACTED.
-provider: eastrouter
+provider: openai
 base_url: https://api.eastrouter.com/v1
 api_key:  ${EASTROUTER_API_KEY}      # never commit the real sk-er_ key
 model:    moonshotai/kimi-k2.6        # strong reasoning for planning (Kimi K2.6)
