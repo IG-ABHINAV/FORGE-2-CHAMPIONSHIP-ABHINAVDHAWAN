@@ -1,0 +1,335 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDCVMQTD",
+        "text": "<@U0BDDCVMQTD> has joined the channel",
+        "type": "message",
+        "ts": "1782538680.147629"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539214.116409",
+        "client_msg_id": "55315a13-4408-4ef9-8f08-b32c1327f1d2",
+        "text": "<@U0BDPD548BE>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ophqf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDPD548BE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539216.535369",
+        "client_msg_id": "08c7c50e-8f52-431f-b0cb-2f32c5c1dba8",
+        "text": "<@U0BDDDE8MB5>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BD0yu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDPD548BE",
+        "text": "<@U0BDPD548BE> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539218.719899"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDDE8MB5",
+        "text": "<@U0BDDDE8MB5> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539220.017089"
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543066.576799",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":white_check_mark: *GitHub Actions (CI)*: Build #1 passed for branch `task\/T-01-auth-multitenancy` on commit `a7f21b3e8e`.\n- Setup PHP 8.3: Success\n- Composer install: Success\n- Migrations: Success\n- Pest Tests: 5 passed (0.68s)",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "deleted": false,
+            "name": "OpenClaw",
+            "updated": 1782538987,
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "e5c2",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "GitHub Actions (CI)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Build #1 passed for branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-01-auth-multitenancy",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on commit "
+                            },
+                            {
+                                "type": "text",
+                                "text": "a7f21b3e8e",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n- Setup PHP 8.3: Success\n- Composer install: Success\n- Migrations: Success\n- Pest Tests: 5 passed (0.68s)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543080.833859",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":white_check_mark: *GitHub Actions (CI)*: Build #2 passed for branch `task\/T-02-ticket-crud` on commit `c8d19a2e12`.\n- Pest Tests: 10 passed (0.84s)",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "3fXz",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "GitHub Actions (CI)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Build #2 passed for branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-02-ticket-crud",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on commit "
+                            },
+                            {
+                                "type": "text",
+                                "text": "c8d19a2e12",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n- Pest Tests: 10 passed (0.84s)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543093.378829",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":white_check_mark: *GitHub Actions (CI)*: Build #3 passed for branch `task\/T-03-comments-sla-logs` on commit `f4d22c9b10`.\n- Pest Tests: 16 passed (1.14s)",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "lvL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "white_check_mark",
+                                "unicode": "2705"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "GitHub Actions (CI)",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Build #3 passed for branch "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-03-comments-sla-logs",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " on commit "
+                            },
+                            {
+                                "type": "text",
+                                "text": "f4d22c9b10",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\n- Pest Tests: 16 passed (1.14s)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

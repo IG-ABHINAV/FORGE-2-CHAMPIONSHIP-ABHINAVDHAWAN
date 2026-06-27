@@ -1,12 +1,58 @@
 {
-  "_comment": "OpenClaw (coder) -- EastRouter config. Secrets REDACTED on purpose.",
-  "model": { "base_url": "https://api.eastrouter.com/v1", "api_key": "${EASTROUTER_API_KEY}", "model": "z-ai/glm-5.1" },
+  "_comment": "OpenClaw (coder agent) — EastRouter config. Secrets REDACTED.",
+  "model": {
+    "provider": "eastrouter",
+    "base_url": "https://api.eastrouter.com/v1",
+    "api_key": "${EASTROUTER_API_KEY}",
+    "model": "z-ai/glm-5.1",
+    "max_tokens": 8192,
+    "temperature": 0.2
+  },
+  "workspace": {
+    "root": "/workspace/forge2-pulsedesk",
+    "backend": "backend",
+    "frontend": "frontend",
+    "allowed_paths": ["app/", "database/", "routes/", "tests/", "config/", "resources/", "src/"]
+  },
+  "tools": {
+    "command_exec": {
+      "enabled": true,
+      "allowed": [
+        "php artisan",
+        "php artisan test",
+        "php artisan migrate",
+        "php artisan make:*",
+        "composer require",
+        "npm install",
+        "npm run build",
+        "npm run dev",
+        "git add",
+        "git commit",
+        "git push",
+        "git checkout -b"
+      ],
+      "blocked": ["rm -rf", "sudo", "chmod 777"]
+    },
+    "file_edit": { "enabled": true, "max_file_size_kb": 500 },
+    "file_create": { "enabled": true },
+    "search": { "enabled": true, "scope": "workspace" }
+  },
   "channels": {
     "slack": {
       "enabled": true,
-      "appToken": { "source": "env", "id": "SLACK_APP_TOKEN" },
-      "botToken": { "source": "env", "id": "SLACK_BOT_TOKEN" },
-      "channels": ["#agent-coder", "#agent-log", "#ci-cd"]
+      "app_token": "${SLACK_APP_TOKEN}",
+      "bot_token": "${SLACK_BOT_TOKEN}",
+      "channels": ["#agent-coder", "#agent-log", "#ci-cd"],
+      "report_to": "#agent-coder",
+      "log_to": "#agent-log"
     }
+  },
+  "behavior": {
+    "auto_test": true,
+    "auto_commit": true,
+    "commit_prefix": "feat",
+    "branch_pattern": "task/T-{id}-{slug}",
+    "pr_on_complete": true,
+    "report_format": "slack_thread"
   }
 }

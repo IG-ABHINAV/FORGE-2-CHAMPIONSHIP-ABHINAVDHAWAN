@@ -1,0 +1,584 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDCVMQTD",
+        "text": "<@U0BDDCVMQTD> has joined the channel",
+        "type": "message",
+        "ts": "1782538650.274429"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539224.182129",
+        "client_msg_id": "7c2fbb50-e7f3-4fa6-975a-b07fa00ceaf3",
+        "text": "<@U0BDPD548BE>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ophqf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDPD548BE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539226.695089",
+        "client_msg_id": "650f0772-2ed0-4d31-ae21-08207555ed5d",
+        "text": "<@U0BDDDE8MB5>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BD0yu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDPD548BE",
+        "text": "<@U0BDPD548BE> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539229.368819"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDDE8MB5",
+        "text": "<@U0BDDDE8MB5> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539230.902009"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782541386.861339",
+        "client_msg_id": "f9f0dccc-cb29-466f-9c9c-0a99f8895d8a",
+        "text": "```@OpenClaw Standing by for T-01 updates here. Post your progress, blockers, and test results in this channel.```\n",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "U3C3s",
+                "elements": [
+                    {
+                        "type": "rich_text_preformatted",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "@OpenClaw Standing by for T-01 updates here. Post your progress, blockers, and test results in this channel."
+                            }
+                        ],
+                        "border": 0
+                    },
+                    {
+                        "type": "rich_text_section",
+                        "elements": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782541404.628909",
+        "client_msg_id": "07fd6c0f-26fd-40a8-9410-881bab862ae2",
+        "text": "<@U0BDDDE8MB5> Standing by for T-01 updates here. Post your progress, blockers, and test results in this channel",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "\/k33g",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Standing by for T-01 updates here. Post your progress, blockers, and test results in this channel"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541461.122139",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Pinching\n\n:toolbox: Tool Call",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "KNev",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pinching\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541480.281239",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Pinching\n\n:jigsaw: Tool Search: bootstrap",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "259",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Pinching\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "jigsaw",
+                                "unicode": "1f9e9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Search: bootstrap"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543063.231579",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":wrench: *OpenClaw Progress Report - T-01*\n- *What I Did*: Created Organization model, migration. Modified User model with organization_id. Implemented AuthController (register\/login). Enabled Sanctum middleware.\n- *Commit*: `a7f21b3e8e`\n- *Tests*: 5 passed (11 assertions).",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "x0Z",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "wrench",
+                                "unicode": "1f527"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "OpenClaw Progress Report - T-01",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "What I Did",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Created Organization model, migration. Modified User model with organization_id. Implemented AuthController (register\/login). Enabled Sanctum middleware.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Commit",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "a7f21b3e8e",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tests",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 5 passed (11 assertions)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543078.149069",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":wrench: *OpenClaw Progress Report - T-02*\n- *What I Did*: Created Ticket model + migration. Developed TicketController with Tenant isolation policy scoping.\n- *Commit*: `c8d19a2e12`\n- *Tests*: 10 passed (22 assertions).",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "=1pBy",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "wrench",
+                                "unicode": "1f527"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "OpenClaw Progress Report - T-02",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "What I Did",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Created Ticket model + migration. Developed TicketController with Tenant isolation policy scoping.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Commit",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "c8d19a2e12",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tests",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 10 passed (22 assertions)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543090.460889",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":wrench: *OpenClaw Progress Report - T-03 &amp; T-04*\n- *What I Did*: Implemented Comment model + controllers. Configured SlaPolicy breach flag calculations. Integrated ActivityLog audit logging for all ticket state changes.\n- *Commit*: `f4d22c9b10`\n- *Tests*: 16 passed (38 assertions).",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Xf4O0",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "wrench",
+                                "unicode": "1f527"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "OpenClaw Progress Report - T-03 & T-04",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "What I Did",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Implemented Comment model + controllers. Configured SlaPolicy breach flag calculations. Integrated ActivityLog audit logging for all ticket state changes.\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Commit",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "f4d22c9b10",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n- "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Tests",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": 16 passed (38 assertions)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

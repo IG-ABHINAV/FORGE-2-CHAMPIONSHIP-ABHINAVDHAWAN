@@ -1,0 +1,816 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDCVMQTD",
+        "text": "<@U0BDDCVMQTD> has joined the channel",
+        "type": "message",
+        "ts": "1782538638.584159"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539235.406669",
+        "client_msg_id": "7c59e3f2-46f5-4458-bae2-660986ebd4db",
+        "text": "<@U0BDPD548BE>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ophqf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDPD548BE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539238.125539",
+        "client_msg_id": "9d00efd6-abcf-495e-a902-486ac948a649",
+        "text": "<@U0BDDDE8MB5>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BD0yu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDPD548BE",
+        "text": "<@U0BDPD548BE> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539239.111339"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDDE8MB5",
+        "text": "<@U0BDDDE8MB5> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539241.286089"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782541231.592689",
+        "client_msg_id": "0006f57f-44e6-4ccf-b1f4-e722bbd53848",
+        "text": "<@U0BDDDE8MB5> T-01: Bootstrap Laravel 11 with Sanctum auth and Organization multi-tenancy.\n\nWorkspace: f:\\FORGE 2\\forge2-pulsedesk\\backend\nModel: z-ai\/glm-5.1 via EastRouter\n\nAcceptance criteria:\n- POST \/api\/register creates Organization + admin User\n- POST \/api\/login returns Sanctum token\n- All routes scoped to organization_id (tenant isolation)\n- Pest tests: can_register, can_login, cannot_access_other_tenant\n\nReport in <#C0BEE1X0PEC|agent-log> with commit SHA and test output.",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "daT9B",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " T-01: Bootstrap Laravel 11 with Sanctum auth and Organization multi-tenancy.\n\nWorkspace: f:\\FORGE 2\\forge2-pulsedesk\\backend\nModel: z-ai\/glm-5.1 via EastRouter\n\nAcceptance criteria:\n- POST \/api\/register creates Organization + admin User\n- POST \/api\/login returns Sanctum token\n- All routes scoped to organization_id (tenant isolation)\n- Pest tests: can_register, can_login, cannot_access_other_tenant\n\nReport in "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "C0BEE1X0PEC"
+                            },
+                            {
+                                "type": "text",
+                                "text": " with commit SHA and test output."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541256.943199",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:toolbox: Tool Call",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "q1BGn",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541266.031929",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:jigsaw: Tool Search: Laravel Sanctum authentication and multi-tenancy setup",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "dXvd",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "jigsaw",
+                                "unicode": "1f9e9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Search: Laravel Sanctum authentication and multi-tenancy setup"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541290.351259",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:toolbox: Tool Call",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "P8\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541320.138399",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":warning: :toolbox: Tool Call failed",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "JeuHK",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "warning",
+                                "unicode": "26a0-fe0f"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call failed"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782541372.945609",
+        "client_msg_id": "2a76f2d1-dd4e-43fe-9b6b-dce40bb18a41",
+        "text": "<@U0BDDDE8MB5> T-01: Multi-tenancy foundation + Sanctum auth for PulseDesk.\n\nWorkspace: f:\\FORGE 2\\forge2-pulsedesk\\backend\nModel via EastRouter: z-ai\/glm-5.1\n\nTasks:\n- Create Organization model + migration (id, name, slug, plan, created_at)\n- Add organization_id to users table\n- Add GlobalScope to all models for tenant isolation\n- POST \/api\/register → creates org + admin user + returns Sanctum token\n- POST \/api\/login → returns token\n- Pest tests: can_register, can_login, cannot_access_other_org_data\n\nReport back in <#C0BEE1X0PEC|agent-log> with: commit SHA + test output.",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "a7obB",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            },
+                            {
+                                "type": "text",
+                                "text": " T-01: Multi-tenancy foundation + Sanctum auth for PulseDesk.\n\nWorkspace: f:\\FORGE 2\\forge2-pulsedesk\\backend\nModel via EastRouter: z-ai\/glm-5.1\n\nTasks:\n- Create Organization model + migration (id, name, slug, plan, created_at)\n- Add organization_id to users table\n- Add GlobalScope to all models for tenant isolation\n- POST \/api\/register → creates org + admin user + returns Sanctum token\n- POST \/api\/login → returns token\n- Pest tests: can_register, can_login, cannot_access_other_org_data\n\nReport back in "
+                            },
+                            {
+                                "type": "channel",
+                                "channel_id": "C0BEE1X0PEC"
+                            },
+                            {
+                                "type": "text",
+                                "text": " with: commit SHA + test output."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541385.016569",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:toolbox: Tool Call",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "IrAQ",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541393.834449",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:jigsaw: Tool Search: laravel sanctum auth multi-tenancy",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BTyL",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "jigsaw",
+                                "unicode": "1f9e9"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Search: laravel sanctum auth multi-tenancy"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782541547.267199",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": "Scuttling\n\n:toolbox: Tool Call",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "Nh3E",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "text",
+                                "text": "Scuttling\n\n"
+                            },
+                            {
+                                "type": "emoji",
+                                "name": "toolbox",
+                                "unicode": "1f9f0"
+                            },
+                            {
+                                "type": "text",
+                                "text": " Tool Call"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543060.356619",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":robot_face: *Task T-01 Assigned*: Bootstrap Laravel 11 with Sanctum auth and Organization multi-tenancy.\n*Owner*: OpenClaw (z-ai\/glm-5.1 via EastRouter)\n*Branch*: `task\/T-01-auth-multitenancy`\n*Status*: Active",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "vVuNO",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "robot_face",
+                                "unicode": "1f916"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Task T-01 Assigned",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Bootstrap Laravel 11 with Sanctum auth and Organization multi-tenancy.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Owner",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": OpenClaw (z-ai\/glm-5.1 via EastRouter)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Branch",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-01-auth-multitenancy",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Status",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Active"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543075.657269",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":robot_face: *Task T-02 Assigned*: Ticket CRUD with Tenant Isolation.\n*Owner*: OpenClaw (z-ai\/glm-5.1 via EastRouter)\n*Branch*: `task\/T-02-ticket-crud`\n*Status*: Active",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "rq1\/",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "robot_face",
+                                "unicode": "1f916"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Task T-02 Assigned",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Ticket CRUD with Tenant Isolation.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Owner",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": OpenClaw (z-ai\/glm-5.1 via EastRouter)\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Branch",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-02-ticket-crud",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Status",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Active"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDDE8MB5",
+        "type": "message",
+        "ts": "1782543088.126879",
+        "bot_id": "B0BDHLW8QVC",
+        "app_id": "A0BDDDAM74K",
+        "text": ":robot_face: *Task T-03 &amp; T-04 Assigned*: Comments, SLA Policy engine &amp; Activity Log.\n*Owner*: OpenClaw (z-ai\/glm-5.1 via EastRouter)",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BDHLW8QVC",
+            "app_id": "A0BDDDAM74K",
+            "user_id": "U0BDDDE8MB5",
+            "name": "OpenClaw",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782538987,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "32gP",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "robot_face",
+                                "unicode": "1f916"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Task T-03 & T-04 Assigned",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Comments, SLA Policy engine & Activity Log.\n"
+                            },
+                            {
+                                "type": "text",
+                                "text": "Owner",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": OpenClaw (z-ai\/glm-5.1 via EastRouter)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

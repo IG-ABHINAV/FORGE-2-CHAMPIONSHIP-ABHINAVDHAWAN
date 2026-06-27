@@ -1,0 +1,335 @@
+[
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDCVMQTD",
+        "text": "<@U0BDDCVMQTD> has joined the channel",
+        "type": "message",
+        "ts": "1782538694.568189"
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539203.202199",
+        "client_msg_id": "d5f29c87-4ebd-4464-b641-21671dc7c3bd",
+        "text": "<@U0BDPD548BE>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "ophqf",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDPD548BE"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539206.570919",
+        "client_msg_id": "af2a51f8-8294-46e3-95cc-80c7cc7f5a35",
+        "text": "<@U0BDDDE8MB5>",
+        "team": "T0BDGBC7SPP",
+        "user_team": "T0BDGBC7SPP",
+        "source_team": "T0BDGBC7SPP",
+        "user_profile": {
+            "avatar_hash": "a290df50dc81",
+            "image_72": "https:\/\/avatars.slack-edge.com\/2026-06-26\/11455437333859_a290df50dc818cfd12a1_72.jpg",
+            "first_name": "Abhinav",
+            "real_name": "Abhinav Dhawan",
+            "display_name": "",
+            "team": "T0BDGBC7SPP",
+            "name": "2k23.csai2313229",
+            "is_restricted": false,
+            "is_ultra_restricted": false
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "BD0yu",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "user",
+                                "user_id": "U0BDDDE8MB5"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDPD548BE",
+        "text": "<@U0BDPD548BE> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539208.357939"
+    },
+    {
+        "subtype": "channel_join",
+        "user": "U0BDDDE8MB5",
+        "text": "<@U0BDDDE8MB5> has joined the channel",
+        "inviter": "U0BDDCVMQTD",
+        "type": "message",
+        "ts": "1782539209.939539"
+    },
+    {
+        "user": "U0BDPD548BE",
+        "type": "message",
+        "ts": "1782543068.937129",
+        "bot_id": "B0BEE2J6FUY",
+        "app_id": "A0BDGBZ45A9",
+        "text": ":loudspeaker: *Hermes Review Request*: Task T-01 (Auth &amp; Tenancy Scope) is complete. All tests are passing.\nMerge request open: `task\/T-01-auth-multitenancy` -&gt; `main`.\nPlease approve in this thread.",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BEE2J6FUY",
+            "deleted": false,
+            "name": "Hermes",
+            "updated": 1782539165,
+            "app_id": "A0BDGBZ45A9",
+            "user_id": "U0BDPD548BE",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "FFRl",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "loudspeaker",
+                                "unicode": "1f4e2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Hermes Review Request",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Task T-01 (Auth & Tenancy Scope) is complete. All tests are passing.\nMerge request open: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-01-auth-multitenancy",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " -> "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ".\nPlease approve in this thread."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDPD548BE",
+        "type": "message",
+        "ts": "1782543084.673009",
+        "bot_id": "B0BEE2J6FUY",
+        "app_id": "A0BDGBZ45A9",
+        "text": ":loudspeaker: *Hermes Review Request*: Task T-02 (Ticket CRUD) is complete. Tenant boundary isolation verified.\nMerge request open: `task\/T-02-ticket-crud` -&gt; `main`.",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BEE2J6FUY",
+            "app_id": "A0BDGBZ45A9",
+            "user_id": "U0BDPD548BE",
+            "name": "Hermes",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782539165,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "POE",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "loudspeaker",
+                                "unicode": "1f4e2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Hermes Review Request",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Task T-02 (Ticket CRUD) is complete. Tenant boundary isolation verified.\nMerge request open: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-02-ticket-crud",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " -> "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "user": "U0BDPD548BE",
+        "type": "message",
+        "ts": "1782543096.344789",
+        "bot_id": "B0BEE2J6FUY",
+        "app_id": "A0BDGBZ45A9",
+        "text": ":loudspeaker: *Hermes Review Request*: Tasks T-03 &amp; T-04 are complete. Full backend support-desk engine is verified.\nMerge request open: `task\/T-03-comments-sla-logs` -&gt; `main`.",
+        "team": "T0BDGBC7SPP",
+        "bot_profile": {
+            "id": "B0BEE2J6FUY",
+            "app_id": "A0BDGBZ45A9",
+            "user_id": "U0BDPD548BE",
+            "name": "Hermes",
+            "icons": {
+                "image_36": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_36.png",
+                "image_48": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/bot_48.png",
+                "image_72": "https:\/\/a.slack-edge.com\/80588\/img\/plugins\/app\/service_72.png"
+            },
+            "deleted": false,
+            "updated": 1782539165,
+            "team_id": "T0BDGBC7SPP"
+        },
+        "blocks": [
+            {
+                "type": "rich_text",
+                "block_id": "gNeni",
+                "elements": [
+                    {
+                        "type": "rich_text_section",
+                        "elements": [
+                            {
+                                "type": "emoji",
+                                "name": "loudspeaker",
+                                "unicode": "1f4e2"
+                            },
+                            {
+                                "type": "text",
+                                "text": " "
+                            },
+                            {
+                                "type": "text",
+                                "text": "Hermes Review Request",
+                                "style": {
+                                    "bold": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": ": Tasks T-03 & T-04 are complete. Full backend support-desk engine is verified.\nMerge request open: "
+                            },
+                            {
+                                "type": "text",
+                                "text": "task\/T-03-comments-sla-logs",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": " -> "
+                            },
+                            {
+                                "type": "text",
+                                "text": "main",
+                                "style": {
+                                    "code": true
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "text": "."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
