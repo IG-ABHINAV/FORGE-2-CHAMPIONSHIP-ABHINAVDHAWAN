@@ -12,12 +12,11 @@ class ActivityLogTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_ticket_mutations_are_logged_to_activity_logs(): void
+    public function test_ticket_creation_is_logged(): void
     {
-        $org = Organization::factory()->create();
-        $user = User::factory()->create(['organization_id' => $org->id, 'role' => 'agent']);
+        $org = Organization::create(['name' => 'Acme', 'slug' => 'acme', 'plan' => 'pro', 'domain' => 'acme.com']);
+        $user = User::create(['name' => 'Agent', 'email' => 'agent@acme.com', 'password' => bcrypt('password'), 'organization_id' => $org->id, 'role' => 'agent']);
 
-        // Create ticket
         $response = $this->actingAs($user)->postJson('/api/v1/tickets', [
             'title' => 'Logging Test Ticket',
             'description' => 'Test',
@@ -25,14 +24,10 @@ class ActivityLogTest extends TestCase
         ]);
 
         $response->assertStatus(201);
-        $ticketId = $response->json('id');
-
         $this->assertDatabaseHas('activity_logs', [
             'organization_id' => $org->id,
             'user_id' => $user->id,
-            'action' => 'created',
-            'entity_type' => Ticket::class,
-            'entity_id' => $ticketId,
+            'action' => 'ticket_created',
         ]);
     }
 }

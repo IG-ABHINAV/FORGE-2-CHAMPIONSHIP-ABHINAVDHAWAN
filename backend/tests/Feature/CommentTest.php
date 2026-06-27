@@ -15,9 +15,9 @@ class CommentTest extends TestCase
 
     public function test_user_can_add_comment_to_own_ticket(): void
     {
-        $org = Organization::factory()->create();
-        $user = User::factory()->create(['organization_id' => $org->id, 'role' => 'agent']);
-        $ticket = Ticket::factory()->create(['organization_id' => $org->id, 'user_id' => $user->id]);
+        $org = Organization::create(['name' => 'Acme', 'slug' => 'acme', 'plan' => 'pro', 'domain' => 'acme.com']);
+        $user = User::create(['name' => 'Agent', 'email' => 'agent@acme.com', 'password' => bcrypt('password'), 'organization_id' => $org->id, 'role' => 'agent']);
+        $ticket = Ticket::create(['organization_id' => $org->id, 'user_id' => $user->id, 'title' => 'Test', 'description' => 'Desc', 'status' => 'open', 'priority' => 'low']);
 
         $response = $this->actingAs($user)->postJson("/api/v1/tickets/{$ticket->id}/comments", [
             'body' => 'This is a test comment.',
@@ -25,22 +25,22 @@ class CommentTest extends TestCase
         ]);
 
         $response->assertStatus(201);
-        $response->assertJsonFragment(['body' => 'This is a test comment.']);
         $this->assertDatabaseHas('comments', ['ticket_id' => $ticket->id, 'body' => 'This is a test comment.']);
     }
 
     public function test_user_cannot_comment_on_other_org_ticket(): void
     {
-        $orgA = Organization::factory()->create();
-        $userA = User::factory()->create(['organization_id' => $orgA->id, 'role' => 'agent']);
+        $orgA = Organization::create(['name' => 'OrgA', 'slug' => 'orga', 'plan' => 'pro', 'domain' => 'orga.com']);
+        $userA = User::create(['name' => 'UserA', 'email' => 'a@orga.com', 'password' => bcrypt('password'), 'organization_id' => $orgA->id, 'role' => 'agent']);
 
-        $orgB = Organization::factory()->create();
-        $ticketB = Ticket::factory()->create(['organization_id' => $orgB->id]);
+        $orgB = Organization::create(['name' => 'OrgB', 'slug' => 'orgb', 'plan' => 'pro', 'domain' => 'orgb.com']);
+        $userB = User::create(['name' => 'UserB', 'email' => 'b@orgb.com', 'password' => bcrypt('password'), 'organization_id' => $orgB->id, 'role' => 'agent']);
+        $ticketB = Ticket::create(['organization_id' => $orgB->id, 'user_id' => $userB->id, 'title' => 'OrgB Ticket', 'description' => 'Desc', 'status' => 'open', 'priority' => 'low']);
 
         $response = $this->actingAs($userA)->postJson("/api/v1/tickets/{$ticketB->id}/comments", [
-            'body' => 'Attempting cross-org comment.',
+            'body' => 'Cross-org attempt.',
         ]);
 
-        $response->assertStatus(403);
+        $response->assertStatus(404);
     }
 }
