@@ -39,6 +39,10 @@ if [ "$DB_READY" != "1" ]; then
     exit 1
 fi
 
+echo "=== Clearing Laravel caches ==="
+php /app/artisan optimize:clear
+echo "=== Laravel caches cleared ==="
+
 echo "=== Running migrations ==="
 php /app/artisan migrate --force
 echo "=== Migrations completed! ==="
